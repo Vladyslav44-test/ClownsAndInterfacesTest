@@ -26,10 +26,8 @@ namespace ClownsAndInterfacesTest
     class ScaryScary : FunnyFunny, IScaryClown
     {
         private short scaryThingCount;
-        private string funnyThingIHave;
 
         public string ScaryThingIHave { get { return scaryThingCount + " spiders"; } }
-        public string FunnyThingIHave { get { return funnyThingIHave; } }
 
         public void ScareLittleChildren()
         {
