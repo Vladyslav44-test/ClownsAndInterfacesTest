@@ -36,7 +36,7 @@ namespace ClownsAndInterfacesTest
             Console.WriteLine($"Boo! Gotcha! Look at my {ScaryThingIHave}!");
         }
 
-        public ScaryScary(short scaryThingCount) : base("spiders")
+        public ScaryScary(string funnyThing, short scaryThingCount) : base(funnyThing)
         {
             this.scaryThingCount = scaryThingCount;
         }
